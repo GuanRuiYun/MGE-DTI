@@ -1,0 +1,77 @@
+Davis:
+  seed: 51
+  num_hidden: 512
+  activation: 'relu'
+  num_layers: 6
+  n_head: 4
+  num_epochs: 100
+  batch_size: 64
+  patience: 18
+  fc_dropout: 0.2
+  protein_kernel: [4, 8, 12]
+  conv: 32
+  char_dim: 64
+  residual: True
+  layer_norm: False
+  batch_norm: True
+  num_in_degree: 10
+  num_out_degree: 10
+  num_spatial_pos: 4
+  drug_dropout: 0.0
+  input_dim: 128
+  out_dim: 128
+  bond_dim: 14
+  fg_dim: 133
+  learning_rate: 0.0001
+
+KIBA:
+  seed: 42
+  num_hidden: 512
+  activation: 'relu'
+  num_layers: 6
+  n_head: 4
+  num_epochs: 60
+  batch_size: 60
+  patience: 18
+  fc_dropout: 0.2
+  protein_kernel: [4, 8, 12]
+  conv: 32
+  char_dim: 64
+  residual: True
+  layer_norm: False
+  batch_norm: True
+  num_in_degree: 10
+  num_out_degree: 10
+  num_spatial_pos: 4
+  drug_dropout: 0.0
+  input_dim: 128
+  out_dim: 128
+  bond_dim: 14
+  fg_dim: 133
+  learning_rate: 0.00001
+
+DrugBank:
+  seed: 51
+  num_hidden: 512
+  activation: 'relu'
+  num_layers: 6
+  n_head: 4
+  num_epochs: 100
+  batch_size: 64
+  patience: 18
+  fc_dropout: 0.2
+  protein_kernel: [4, 8, 12]
+  conv: 32
+  char_dim: 64
+  residual: True
+  layer_norm: False
+  batch_norm: True
+  num_in_degree: 10
+  num_out_degree: 10
+  num_spatial_pos: 4
+  drug_dropout: 0.0
+  input_dim: 128
+  out_dim: 128
+  bond_dim: 14
+  fg_dim: 133
+  learning_rate: 0.00005
